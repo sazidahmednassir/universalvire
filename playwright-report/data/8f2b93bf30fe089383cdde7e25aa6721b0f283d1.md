@@ -1,0 +1,398 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e4]:
+    - banner [ref=e6]:
+      - generic [ref=e13]:
+        - generic [ref=e15]:
+          - list [ref=e20]:
+            - listitem:
+              - generic:
+                - img
+              - generic: Riyadh, Saudia Arabia
+          - paragraph [ref=e25]: Schedule Your First Step
+        - generic [ref=e27]:
+          - generic [ref=e33]:
+            - img [ref=e39]
+            - generic [ref=e42]:
+              - generic [ref=e43]: Call us anytime
+              - link "056-383-3864" [ref=e45] [cursor=pointer]:
+                - /url: tel:966563833864
+                - generic [ref=e47] [cursor=pointer]: 056-383-3864
+          - link "Tashafe" [ref=e53] [cursor=pointer]:
+            - /url: https://tashafe.com/
+            - img "Tashafe" [ref=e54] [cursor=pointer]
+          - link [ref=e61] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e65]:
+      - generic [ref=e74]:
+        - group "1 / 1":
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading "Tashafe is a specialized platform for group psychotherapy." [level=4]:
+                                      - generic: Tashafe is a specialized platform for group psychotherapy.
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                              - generic:
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - generic:
+                                        - img
+                                      - generic: We believe that human connection within carefully designed therapeutic groups is the key to rebuilding mental health and enhancing the ability to adapt and grow.
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "Step Into Healing":
+                                      - /url: /therapy-groups/
+                                      - generic:
+                                        - generic: Step Into Healing
+        - group "1 / 1" [ref=e75]:
+          - generic [ref=e85]:
+            - heading "Tashafe is a specialized platform for group psychotherapy." [level=4] [ref=e89]:
+              - generic [ref=e90]: Tashafe is a specialized platform for group psychotherapy.
+            - img [ref=e96]
+            - list [ref=e100]:
+              - listitem:
+                - generic:
+                  - img
+                - generic: We believe that human connection within carefully designed therapeutic groups is the key to rebuilding mental health and enhancing the ability to adapt and grow.
+            - link "Step Into Healing" [ref=e104] [cursor=pointer]:
+              - /url: /therapy-groups/
+              - generic [ref=e106] [cursor=pointer]: Step Into Healing
+        - group "1 / 1":
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - heading "Tashafe is a specialized platform for group psychotherapy." [level=4]:
+                                      - generic: Tashafe is a specialized platform for group psychotherapy.
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - generic:
+                                      - generic:
+                                        - img
+                              - generic:
+                                - generic:
+                                  - list:
+                                    - listitem:
+                                      - generic:
+                                        - img
+                                      - generic: We believe that human connection within carefully designed therapeutic groups is the key to rebuilding mental health and enhancing the ability to adapt and grow.
+                              - generic:
+                                - generic:
+                                  - generic:
+                                    - link "Step Into Healing":
+                                      - /url: /therapy-groups/
+                                      - generic:
+                                        - generic: Step Into Healing
+      - generic [ref=e130]:
+        - img [ref=e136]
+        - img [ref=e147]
+      - generic [ref=e168]:
+        - iframe [ref=e171]:
+          - generic [ref=f1e5]:
+            - generic [ref=f1e6]:
+              - link "tashafetrips" [ref=f1e8] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+                - img "tashafetrips" [ref=f1e9] [cursor=pointer]
+              - generic [ref=f1e10]:
+                - link "tashafetrips" [ref=f1e11] [cursor=pointer]:
+                  - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+                  - generic [ref=f1e12] [cursor=pointer]: tashafetrips
+                - generic [ref=f1e14]: 2,486 followers
+              - link "View profile" [ref=f1e16] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+            - generic [ref=f1e22]:
+              - list [ref=f1e26]:
+                - listitem [ref=f1e27]:
+                  - img [ref=f1e31]
+                - listitem [ref=f1e33]:
+                  - img [ref=f1e37]
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+              - button "Next" [ref=f1e39] [cursor=pointer]
+            - generic [ref=f1e55]:
+              - link "tashafetrips tashafetrips 41 posts · 2K followers" [ref=f1e56] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+                - generic [ref=f1e57] [cursor=pointer]:
+                  - img "tashafetrips" [ref=f1e58] [cursor=pointer]
+                  - generic [ref=f1e59] [cursor=pointer]:
+                    - generic [ref=f1e61] [cursor=pointer]: tashafetrips
+                    - generic [ref=f1e63] [cursor=pointer]: 41 posts · 2K followers
+                - generic [ref=f1e64] [cursor=pointer]:
+                  - img [ref=f1e65] [cursor=pointer]
+                  - img [ref=f1e66] [cursor=pointer]
+              - link "View more on Instagram" [ref=f1e68] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+            - generic [ref=f1e69]:
+              - link "Like" [ref=f1e70] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DDqLKQUo6aM/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+                - generic: Like
+              - link "Comment" [ref=f1e72] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DDqLKQUo6aM/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+                - generic [ref=f1e74] [cursor=pointer]: Comment
+              - link "Share" [ref=f1e75] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DDqLKQUo6aM/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+                - generic [ref=f1e77] [cursor=pointer]: Share
+              - link "Save" [ref=f1e78] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DDqLKQUo6aM/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+                - generic [ref=f1e80] [cursor=pointer]: Save
+            - generic [ref=f1e81]:
+              - link "Add a comment..." [ref=f1e82] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DDqLKQUo6aM/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+              - link "Instagram" [ref=f1e83] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DDqLKQUo6aM/?utm_source=ig_embed&ig_rid=94780a7e-092c-4324-a9e0-23bc6eb354b4
+                - generic [ref=f1e85] [cursor=pointer]: Instagram
+        - iframe [ref=e174]:
+          - generic [ref=f2e5]:
+            - generic [ref=f2e6]:
+              - link "tashafetrips" [ref=f2e8] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+                - img "tashafetrips" [ref=f2e9] [cursor=pointer]
+              - generic [ref=f2e10]:
+                - link "tashafetrips" [ref=f2e11] [cursor=pointer]:
+                  - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+                  - generic [ref=f2e12] [cursor=pointer]: tashafetrips
+                - link "Riyadh - Kingdom Of Saudi Arabia" [ref=f2e15] [cursor=pointer]:
+                  - /url: https://www.instagram.com/explore/locations/322083487/riyadh-kingdom-of-saudi-arabia/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+              - link "View profile" [ref=f2e17] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+            - generic [ref=f2e23]:
+              - list [ref=f2e27]:
+                - listitem [ref=f2e28]:
+                  - img [ref=f2e32]
+                - listitem [ref=f2e34]:
+                  - img [ref=f2e38]
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+              - button "Next" [ref=f2e40] [cursor=pointer]
+            - generic [ref=f2e51]:
+              - link "tashafetrips tashafetrips 41 posts · 2K followers" [ref=f2e52] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+                - generic [ref=f2e53] [cursor=pointer]:
+                  - img "tashafetrips" [ref=f2e54] [cursor=pointer]
+                  - generic [ref=f2e55] [cursor=pointer]:
+                    - generic [ref=f2e57] [cursor=pointer]: tashafetrips
+                    - generic [ref=f2e59] [cursor=pointer]: 41 posts · 2K followers
+                - generic [ref=f2e60] [cursor=pointer]:
+                  - img [ref=f2e61] [cursor=pointer]
+                  - img [ref=f2e62] [cursor=pointer]
+              - link "View more on Instagram" [ref=f2e64] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+            - generic [ref=f2e65]:
+              - link "Like" [ref=f2e66] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DEYVIuWolRs/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+                - generic: Like
+              - link "Comment" [ref=f2e68] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DEYVIuWolRs/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+                - generic [ref=f2e70] [cursor=pointer]: Comment
+              - link "Share" [ref=f2e71] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DEYVIuWolRs/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+                - generic [ref=f2e73] [cursor=pointer]: Share
+              - link "Save" [ref=f2e74] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DEYVIuWolRs/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+                - generic [ref=f2e76] [cursor=pointer]: Save
+            - generic [ref=f2e77]:
+              - link "Add a comment..." [ref=f2e78] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DEYVIuWolRs/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+              - link "Instagram" [ref=f2e79] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DEYVIuWolRs/?utm_source=ig_embed&ig_rid=19016722-9658-41a5-ae12-ea7aa7b0aa2e
+                - generic [ref=f2e81] [cursor=pointer]: Instagram
+        - iframe [ref=e177]:
+          - generic [ref=f3e5]:
+            - generic [ref=f3e6]:
+              - link "tashafetrips" [ref=f3e8] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+                - img "tashafetrips" [ref=f3e9] [cursor=pointer]
+              - generic [ref=f3e10]:
+                - link "tashafetrips" [ref=f3e11] [cursor=pointer]:
+                  - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+                  - generic [ref=f3e12] [cursor=pointer]: tashafetrips
+                - link "Riyadh - Kingdom Of Saudi Arabia" [ref=f3e15] [cursor=pointer]:
+                  - /url: https://www.instagram.com/explore/locations/322083487/riyadh-kingdom-of-saudi-arabia/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+              - link "View profile" [ref=f3e17] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+            - generic [ref=f3e23]:
+              - list [ref=f3e27]:
+                - listitem [ref=f3e28]:
+                  - img [ref=f3e32]
+                - listitem [ref=f3e34]:
+                  - img [ref=f3e38]
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+                - listitem
+              - button "Next" [ref=f3e40] [cursor=pointer]
+            - generic [ref=f3e57]:
+              - link "tashafetrips tashafetrips 41 posts · 2K followers" [ref=f3e58] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+                - generic [ref=f3e59] [cursor=pointer]:
+                  - img "tashafetrips" [ref=f3e60] [cursor=pointer]
+                  - generic [ref=f3e61] [cursor=pointer]:
+                    - generic [ref=f3e63] [cursor=pointer]: tashafetrips
+                    - generic [ref=f3e65] [cursor=pointer]: 41 posts · 2K followers
+                - generic [ref=f3e66] [cursor=pointer]:
+                  - img [ref=f3e67] [cursor=pointer]
+                  - img [ref=f3e68] [cursor=pointer]
+              - link "View more on Instagram" [ref=f3e70] [cursor=pointer]:
+                - /url: https://www.instagram.com/tashafetrips/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+            - generic [ref=f3e71]:
+              - link "Like" [ref=f3e72] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DD4aIqIokoA/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+                - generic: Like
+              - link "Comment" [ref=f3e74] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DD4aIqIokoA/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+                - generic [ref=f3e76] [cursor=pointer]: Comment
+              - link "Share" [ref=f3e77] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DD4aIqIokoA/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+                - generic [ref=f3e79] [cursor=pointer]: Share
+              - link "Save" [ref=f3e80] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DD4aIqIokoA/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+                - generic [ref=f3e82] [cursor=pointer]: Save
+            - generic [ref=f3e83]:
+              - link "Add a comment..." [ref=f3e84] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DD4aIqIokoA/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+              - link "Instagram" [ref=f3e85] [cursor=pointer]:
+                - /url: https://www.instagram.com/p/DD4aIqIokoA/?utm_source=ig_embed&ig_rid=0b3a2566-5f38-4c7d-984b-0b2dc8ae3a17
+                - generic [ref=f3e87] [cursor=pointer]: Instagram
+      - link "More Questions? Click Here" [ref=e199] [cursor=pointer]:
+        - /url: /faq
+        - generic [ref=e201] [cursor=pointer]: More Questions? Click Here
+    - contentinfo [ref=e206]:
+      - generic [ref=e213]:
+        - generic [ref=e215]:
+          - generic [ref=e221]:
+            - generic:
+              - generic: Navigation
+            - list [ref=e230]:
+              - listitem:
+                - link "About Us" [ref=e231] [cursor=pointer]:
+                  - /url: /about-us-2/
+                  - generic [ref=e232] [cursor=pointer]: About Us
+              - listitem:
+                - link "Contact Us" [ref=e233] [cursor=pointer]:
+                  - /url: /contact
+                  - generic [ref=e234] [cursor=pointer]: Contact Us
+              - listitem:
+                - link "Services" [ref=e235] [cursor=pointer]:
+                  - /url: /about-us-2/#tashafe-services
+                  - generic [ref=e236] [cursor=pointer]: Services
+              - listitem:
+                - link "Our Blog" [ref=e237] [cursor=pointer]:
+                  - /url: /news-blog/
+                  - generic [ref=e238] [cursor=pointer]: Our Blog
+          - generic [ref=e240]:
+            - heading "Contact Info" [level=4] [ref=e244]:
+              - generic [ref=e245]: Contact Info
+            - list [ref=e248]:
+              - listitem:
+                - generic:
+                  - img
+                - generic: Riyadh, Saudia Arabia
+              - listitem:
+                - link "+966-56-383-3864" [ref=e249] [cursor=pointer]:
+                  - /url: tel:003694584739
+                  - img [ref=e251] [cursor=pointer]
+                  - generic [ref=e253] [cursor=pointer]: +966-56-383-3864
+              - listitem:
+                - link "tanfs.therapy@tanfs.sa" [ref=e254] [cursor=pointer]:
+                  - /url: mailto:tanfs.therapy@tanfs.sa
+                  - img [ref=e256] [cursor=pointer]
+                  - generic [ref=e258] [cursor=pointer]: tanfs.therapy@tanfs.sa
+              - listitem:
+                - link "+966-56-383-3864" [ref=e259] [cursor=pointer]:
+                  - /url: https://api.whatsapp.com/send/?phone=966563833864
+                  - img [ref=e261] [cursor=pointer]
+                  - generic [ref=e263] [cursor=pointer]: +966-56-383-3864
+          - generic [ref=e265]:
+            - heading "Gallery" [level=3] [ref=e269]:
+              - generic [ref=e270]: Gallery
+            - generic [ref=e274]:
+              - figure [ref=e275]:
+                - link [ref=e277] [cursor=pointer]:
+                  - /url: https://tashafe.com/wp-content/uploads/2025/07/450500585_1014116663710130_4110210221129379265_n.jpg
+              - figure [ref=e278]:
+                - link [ref=e280] [cursor=pointer]:
+                  - /url: https://tashafe.com/wp-content/uploads/2025/07/451072234_1180504136431759_1688923446897249562_n.jpg
+              - figure [ref=e281]:
+                - link [ref=e283] [cursor=pointer]:
+                  - /url: https://tashafe.com/wp-content/uploads/2025/08/450504362_1898561060605437_246429728577047419_n.jpg
+        - generic [ref=e285]:
+          - paragraph [ref=e290]: Copyright © Tashafe| All Right Reserved
+          - link "Back To Top" [ref=e296] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e298] [cursor=pointer]: Back To Top
+          - generic [ref=e300]:
+            - heading "We Are Social" [level=4] [ref=e304]:
+              - generic [ref=e305]: We Are Social
+            - list [ref=e308]:
+              - listitem:
+                - link [ref=e309] [cursor=pointer]:
+                  - /url: http://www.facebook.com
+                  - img [ref=e311] [cursor=pointer]
+              - listitem:
+                - link [ref=e313] [cursor=pointer]:
+                  - /url: https://www.instagram.com/tashafetrips/
+                  - img [ref=e315] [cursor=pointer]
+              - listitem:
+                - link [ref=e319] [cursor=pointer]:
+                  - /url: http://www.twitter.com
+                  - img [ref=e321] [cursor=pointer]
+              - listitem:
+                - link [ref=e323] [cursor=pointer]:
+                  - /url: https://api.whatsapp.com/send/?phone=966563833864
+                  - img [ref=e325] [cursor=pointer]
+  - text: 
+  - generic [ref=e327]: tablet_extra
+  - status [ref=e328]
+```

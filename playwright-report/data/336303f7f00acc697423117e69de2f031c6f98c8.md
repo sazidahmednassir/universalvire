@@ -1,0 +1,162 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e9]:
+    - /url: "#main"
+  - generic [ref=e11]:
+    - banner [ref=e13]:
+      - generic [ref=e20]:
+        - generic [ref=e22]:
+          - list [ref=e27]:
+            - listitem:
+              - generic:
+                - img
+              - generic: Riyadh, Saudia Arabia
+          - paragraph [ref=e32]: Schedule Your First Step
+        - generic [ref=e34]:
+          - generic [ref=e40]:
+            - img [ref=e46]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Call us anytime
+              - link "056-383-3864" [ref=e52]:
+                - /url: tel:966563833864
+                - generic [ref=e54]: 056-383-3864
+          - link "Tashafe" [ref=e60]:
+            - /url: https://tashafe.com/
+            - img "Tashafe" [ref=e61]
+          - link [ref=e68] [cursor=pointer]:
+            - /url: "#"
+    - generic [ref=e72]:
+      - generic [ref=e92]:
+        - heading "Tashafe is a specialized platform for group psychotherapy." [level=4] [ref=e96]:
+          - generic [ref=e97]: Tashafe is a specialized platform for group psychotherapy.
+        - img [ref=e103]
+        - list [ref=e107]:
+          - listitem:
+            - generic:
+              - img
+            - generic: We believe that human connection within carefully designed therapeutic groups is the key to rebuilding mental health and enhancing the ability to adapt and grow.
+        - link "Step Into Healing" [ref=e111] [cursor=pointer]:
+          - /url: /therapy-groups/
+          - generic [ref=e113] [cursor=pointer]: Step Into Healing
+      - generic [ref=e137]:
+        - img [ref=e142]
+        - img [ref=e152]
+      - generic [ref=e173]:
+        - blockquote [ref=e176]:
+          - generic [ref=e177]:
+            - link "View this post on Instagram" [ref=e178]:
+              - /url: https://www.instagram.com/p/DDqLKQUo6aM/?utm_source=ig_embed&utm_campaign=loading
+              - img [ref=e186]
+              - generic [ref=e192]: View this post on Instagram
+            - paragraph [ref=e209]:
+              - link "A post shared by Tashafe Trips | رحلات تشافي (@tashafetrips)" [ref=e210]:
+                - /url: https://www.instagram.com/p/DDqLKQUo6aM/?utm_source=ig_embed&utm_campaign=loading
+        - blockquote [ref=e213]:
+          - generic [ref=e214]:
+            - link "View this post on Instagram" [ref=e215]:
+              - /url: https://www.instagram.com/p/DEYVIuWolRs/?utm_source=ig_embed&utm_campaign=loading
+              - img [ref=e223]
+              - generic [ref=e229]: View this post on Instagram
+            - paragraph [ref=e246]:
+              - link "A post shared by Tashafe Trips | رحلات تشافي (@tashafetrips)" [ref=e247]:
+                - /url: https://www.instagram.com/p/DEYVIuWolRs/?utm_source=ig_embed&utm_campaign=loading
+        - blockquote [ref=e250]:
+          - generic [ref=e251]:
+            - link "View this post on Instagram" [ref=e252]:
+              - /url: https://www.instagram.com/p/DD4aIqIokoA/?utm_source=ig_embed&utm_campaign=loading
+              - img [ref=e260]
+              - generic [ref=e266]: View this post on Instagram
+            - paragraph [ref=e283]:
+              - link "A post shared by Tashafe Trips | رحلات تشافي (@tashafetrips)" [ref=e284]:
+                - /url: https://www.instagram.com/p/DD4aIqIokoA/?utm_source=ig_embed&utm_campaign=loading
+      - link "More Questions? Click Here" [ref=e306] [cursor=pointer]:
+        - /url: /faq
+        - generic [ref=e308] [cursor=pointer]: More Questions? Click Here
+    - contentinfo [ref=e313]:
+      - generic [ref=e320]:
+        - generic [ref=e322]:
+          - generic [ref=e328]:
+            - generic:
+              - generic: Navigation
+            - list [ref=e337]:
+              - listitem:
+                - link "About Us" [ref=e338]:
+                  - /url: /about-us-2/
+                  - generic [ref=e339]: About Us
+              - listitem:
+                - link "Contact Us" [ref=e340]:
+                  - /url: /contact
+                  - generic [ref=e341]: Contact Us
+              - listitem:
+                - link "Services" [ref=e342]:
+                  - /url: /about-us-2/#tashafe-services
+                  - generic [ref=e343]: Services
+              - listitem:
+                - link "Our Blog" [ref=e344]:
+                  - /url: /news-blog/
+                  - generic [ref=e345]: Our Blog
+          - generic [ref=e347]:
+            - heading "Contact Info" [level=4] [ref=e351]:
+              - generic [ref=e352]: Contact Info
+            - list [ref=e355]:
+              - listitem:
+                - generic:
+                  - img
+                - generic: Riyadh, Saudia Arabia
+              - listitem:
+                - link "+966-56-383-3864" [ref=e356]:
+                  - /url: tel:003694584739
+                  - img [ref=e358]
+                  - generic [ref=e360]: +966-56-383-3864
+              - listitem:
+                - link "tanfs.therapy@tanfs.sa" [ref=e361]:
+                  - /url: mailto:tanfs.therapy@tanfs.sa
+                  - img [ref=e363]
+                  - generic [ref=e365]: tanfs.therapy@tanfs.sa
+              - listitem:
+                - link "+966-56-383-3864" [ref=e366]:
+                  - /url: https://api.whatsapp.com/send/?phone=966563833864
+                  - img [ref=e368]
+                  - generic [ref=e370]: +966-56-383-3864
+          - generic [ref=e372]:
+            - heading "Gallery" [level=3] [ref=e376]:
+              - generic [ref=e377]: Gallery
+            - generic [ref=e381]:
+              - figure [ref=e382]:
+                - link [ref=e384]:
+                  - /url: https://tashafe.com/wp-content/uploads/2025/07/450500585_1014116663710130_4110210221129379265_n.jpg
+              - figure [ref=e385]:
+                - link [ref=e387]:
+                  - /url: https://tashafe.com/wp-content/uploads/2025/07/451072234_1180504136431759_1688923446897249562_n.jpg
+              - figure [ref=e388]:
+                - link [ref=e390]:
+                  - /url: https://tashafe.com/wp-content/uploads/2025/08/450504362_1898561060605437_246429728577047419_n.jpg
+        - generic [ref=e392]:
+          - paragraph [ref=e397]: Copyright © Tashafe| All Right Reserved
+          - link "Back To Top" [ref=e403] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e405] [cursor=pointer]: Back To Top
+          - generic [ref=e407]:
+            - heading "We Are Social" [level=4] [ref=e411]:
+              - generic [ref=e412]: We Are Social
+            - list [ref=e415]:
+              - listitem:
+                - link [ref=e416]:
+                  - /url: http://www.facebook.com
+                  - img [ref=e418]
+              - listitem:
+                - link [ref=e420]:
+                  - /url: https://www.instagram.com/tashafetrips/
+                  - img [ref=e422]
+              - listitem:
+                - link [ref=e426]:
+                  - /url: http://www.twitter.com
+                  - img [ref=e428]
+              - listitem:
+                - link [ref=e430]:
+                  - /url: https://api.whatsapp.com/send/?phone=966563833864
+                  - img [ref=e432]
+  - text: 
+```
