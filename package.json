@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "visual": "node utils/screenshotFromExcel.js"
+    "visual": "node utils/screenshotFromExcel.js",
+    "regression": "playwright test tests/regression"
   },
   "keywords": [],
   "author": "",
