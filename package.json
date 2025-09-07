@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "visual": "node utils/screenshotFromExcel.js",
-    "regression": "playwright test tests/regression"
+    "clean:allure": "rm -rf allure-results allure-report",
+    "regression": "npm run clean:allure && playwright test tests/regression && allure serve allure-results",
+    "allure:report": "allure generate allure-results -o allure-report --clean && allure open allure-report"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,8 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
-    "@playwright/test": "^1.55.0"
+    "@playwright/test": "^1.55.0",
+    "allure-commandline": "^2.34.1",
+    "allure-playwright": "^2.15.1"
   }
 }

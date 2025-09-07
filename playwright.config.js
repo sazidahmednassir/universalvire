@@ -16,6 +16,8 @@ module.exports = defineConfig({
   retries: process.env.CI ? 1 : 0,
   reporter: [
     ['list'],
+    // Allure results will be written to ./allure-results
+    ['allure-playwright', { outputFolder: 'allure-results', detail: true, suiteTitle: false }],
     ['html', { outputFolder: 'playwright-report', open: 'never' }],
   ],
   outputDir: 'test-results',
@@ -32,4 +34,3 @@ module.exports = defineConfig({
     // { name: 'webkit', use: { browserName: 'webkit' } },
   ],
 });
-

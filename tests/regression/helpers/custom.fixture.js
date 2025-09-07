@@ -13,4 +13,3 @@ exports.test = base.extend({
 });
 
 exports.expect = expect;
-
