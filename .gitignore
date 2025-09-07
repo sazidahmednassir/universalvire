@@ -3,7 +3,8 @@ test-results/
 playwright-report/
 blob-report/
 /playwright/.cache/
-/allure-results
+/allure-results/
+/allure-report/
 # Don't commit environment files with credentials
 .env
 .env.local
