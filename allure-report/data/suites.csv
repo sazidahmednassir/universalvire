@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","17254","renders hero banner on homepage","chromium","Sun Sep 07 14:26:57 BDT 2025","passed","Sun Sep 07 14:27:14 BDT 2025","Home Hero Banner","","",""
-"","17875","shows at least one hero bullet item","chromium","Sun Sep 07 14:26:57 BDT 2025","passed","Sun Sep 07 14:27:15 BDT 2025","Home Hero Banner","","",""
-"","17186","navigates to CTA destination when clicked","chromium","Sun Sep 07 14:26:57 BDT 2025","failed","Sun Sep 07 14:27:14 BDT 2025","Home Hero Banner","","",""
-"","61228","displays a non-empty hero heading","chromium","Sun Sep 07 14:26:57 BDT 2025","broken","Sun Sep 07 14:27:58 BDT 2025","Home Hero Banner","","",""
-"","18452","shows hero CTA with expected text and link","chromium","Sun Sep 07 14:26:57 BDT 2025","failed","Sun Sep 07 14:27:15 BDT 2025","Home Hero Banner","","",""
