@@ -86,7 +86,9 @@ async function freezeAnimations(page) {
       const folderPath = path.join(baseDir, folderName);
       if (!fs.existsSync(folderPath)) fs.mkdirSync(folderPath);
 
-      const fileName = `screenshot_${width}x${height}.png`;
+      // Safe file name from URL for screenshot
+      const urlSafe = url.replace(/https?:\/\//, '').replace(/[^\w]/g, '_');
+      const fileName = `${urlSafe}_${width}x${height}.png`;
       const screenshotPath = path.join(folderPath, fileName);
 
       // 3) Handle section animations: walk sections to trigger in-view effects, then freeze animations

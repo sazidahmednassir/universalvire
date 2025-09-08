@@ -7,7 +7,7 @@
     "visual": "node utils/screenshotFromExcel.js",
     "clean:allure": "rm -rf allure-results allure-report",
     "regression": "npm run clean:allure && playwright test tests/regression && allure serve allure-results",
-    "allure:report": "allure generate allure-results -o allure-report --clean && allure open allure-report"
+    "single:html": "npx allure generate --single-file allure-results --clean -o allure-report || echo \"Report generation failed\""
   },
   "keywords": [],
   "author": "",
