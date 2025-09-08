@@ -8,3 +8,4 @@ blob-report/
 # Don't commit environment files with credentials
 .env
 .env.local
+screenshots/
