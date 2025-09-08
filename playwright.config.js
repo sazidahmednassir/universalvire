@@ -9,7 +9,7 @@ module.exports = defineConfig({
     '**/*.test.ts',
     '**/*.test.js',
   ],
-  timeout: 60_000,
+  timeout: 60000,
   expect: { timeout: 5_000 },
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
@@ -22,14 +22,21 @@ module.exports = defineConfig({
   ],
   outputDir: 'test-results',
   use: {
-    headless: true,
+    headless: false,
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    viewport: { width: 1280, height: 720 },
+      launchOptions: {
+      args: ["--start-maximized"], // Start browser maximized
+    },
   },
   projects: [
-    { name: 'chromium', use: { browserName: 'chromium' } },
+    { name: "Google Chrome", 
+      use: {
+        //  browserName: 'chromium' 
+        viewport: null,
+
+        } },
     // { name: 'firefox', use: { browserName: 'firefox' } },
     // { name: 'webkit', use: { browserName: 'webkit' } },
   ],

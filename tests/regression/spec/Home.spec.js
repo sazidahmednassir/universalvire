@@ -5,27 +5,20 @@ test.describe('Home Hero Banner', () => {
     await actions.home.openHomeAndWaitHero();
   });
 
-  test('renders hero banner on homepage', async ({ actions }) => {
-    await actions.home.validateHeroVisible();
+  test('Header menu tabs navigate correctly on tashafe.com', async ({ actions }) => {
+    await actions.home.validateHeaderMenuNavigation()
+  }
+  );
+
+  test('Hero banner elements are visible and correct on tashafe.com', async ({ actions }) => {
+    // Verify hero carousel is visible
+    await actions.home.validateHomeBannerAndNextSectionVisible();
   });
 
-  test('displays a non-empty hero heading', async ({ actions }) => {
-    await actions.home.validateHeroHeadingPresent();
+  test('Validate About Us section loads after scrolling to user-friendly platform text', async ({ actions }) => {
+
+   await actions.home.validateAboutUsSection();
+
   });
 
-  test('shows at least one hero bullet item', async ({ actions }) => {
-    await actions.home.validateHeroBulletsPresent();
-  });
-
-  test('shows hero CTA with expected text and link', async ({ actions }) => {
-    await actions.home.validateHeroCTAVisible();
-    await actions.home.validateHeroCTATextContains('Step Into Healing');
-    await actions.home.validateHeroCTALinkContains('/therapy-groups');
-  });
-
-  test('navigates to CTA destination when clicked', async ({ actions, page }) => {
-    await actions.home.validateHeroCTAVisible();
-    await actions.home.clickHeroCTAAndWaitNavigation();
-    await expect(page).toHaveURL(/\/therapy-groups\/?/);
-  });
 });

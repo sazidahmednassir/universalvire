@@ -33,55 +33,54 @@ class HomeActions {
     });
   }
 
-  async validateHeroVisible() {
-    return this._step('Validate hero is visible', async () => {
+
+
+  async validateHeaderMenuNavigation() {
+    return this._step('Validate header menu navigation', async () => {
+      
+      const menuTabs = [
+        { name: 'Therapy-Groups', urlPart: '/therapy-groups', heading: 'Therapy-Groups' },
+        { name: 'Blog', urlPart: '/blog-grid-style', heading: 'Our Blog' },
+        { name: 'Contact', urlPart: '/contact', heading: 'Contact' },
+        { name: 'About Us', urlPart: '/about-us', heading: 'About Us' }
+      ];
+
+      for (const tab of menuTabs) {
+        const headerMenu = this.page.locator('#menu-main-menu-3');
+        await headerMenu.getByRole('link', { name: tab.name, exact: true }).click();
+        await expect(this.page).toHaveURL(new RegExp(tab.urlPart, 'i'));
+        if (tab.name === 'Contact') {
+          await expect(this.page.getByRole('heading', { name: 'Contact', exact: true })).toBeVisible();
+        } else {
+          await expect(this.page.getByRole('heading', { name: new RegExp(tab.heading, 'i') })).toBeVisible();
+        }
+        await this.page.goto('https://tashafe.com/');
+      }
+    });
+  }
+
+  async validateHomeBannerAndNextSectionVisible() {
+    return this._step('Validate home banner and next section visible', async () => {
+      // Validate hero/banner section is visible
       await expect(HomePage.heroCarousel(this.page)).toBeVisible();
+      // Validate the section after the hero/banner is visible
+      const nextSection = this.page.locator('.elementor-section').nth(1); // Adjust selector if needed
+      await expect(nextSection).toBeVisible();
     });
   }
 
-  async validateHeroHeadingPresent() {
-    return this._step('Validate hero heading present', async () => {
-      const text = (await HomePage.heroHeading(this.page).first().textContent())?.trim();
-      expect(text && text.length).toBeTruthy();
+  async validateAboutUsSection() {    
+    return this._step('Validate About Us section visibility', async () => {
+      const userFriendlyText = HomePage.aboutImageText(this.page);
+      await userFriendlyText.evaluate(el => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+      await expect(userFriendlyText).toBeVisible({ timeout: 10000 });
+
+      const aboutUsHeading = HomePage.aboutHeading(this.page);
+      await aboutUsHeading.evaluate(el => el.scrollIntoView({ behavior: 'smooth', block: 'center' }));
+      await expect(aboutUsHeading).toBeVisible({ timeout: 10000 });
     });
   }
 
-  async validateHeroBulletsPresent() {
-    return this._step('Validate hero bullet items present', async () => {
-      const count = await HomePage.heroBulletItems(this.page).count();
-      expect(count).toBeGreaterThan(0);
-    });
-  }
-
-  async validateHeroCTAVisible() {
-    return this._step('Validate hero CTA visible', async () => {
-      await expect(HomePage.heroCTA(this.page)).toBeVisible();
-    });
-  }
-
-  async validateHeroCTATextContains(expected) {
-    return this._step('Validate hero CTA text', async () => {
-      const actual = (await HomePage.heroCTA(this.page).first().innerText())?.trim();
-      expect(actual).toContain(expected);
-    });
-  }
-
-  async validateHeroCTALinkContains(pathPart) {
-    return this._step('Validate hero CTA href', async () => {
-      const href = await HomePage.heroCTA(this.page).first().getAttribute('href');
-      expect(href).toContain(pathPart);
-    });
-  }
-
-  async clickHeroCTAAndWaitNavigation() {
-    return this._step('Click CTA and wait navigation', async () => {
-      const [nav] = await Promise.all([
-        this.page.waitForLoadState('load'),
-        HomePage.heroCTA(this.page).first().click(),
-      ]);
-      return nav;
-    });
-  }
 }
 
 module.exports = { HomeActions };
